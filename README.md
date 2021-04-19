@@ -27,6 +27,7 @@ page NextSong
 users in the app, songs in music database, artists in music database, timestamps 
 of records in songplays broken down into specific units respectively.
 
+![Entity Relationship Diagram](project1_erd.png)
 
 
 Using the song and log datasets a star schema optimized for queries on song 
