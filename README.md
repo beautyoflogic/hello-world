@@ -3,7 +3,6 @@
 
 ## PROJECT 1: DATA MODELING with POSTGRES
 
- 
 #### DATABASE PURPOSE
 
 The Sparkify starup created a new music streaming application. In an effort 
@@ -13,8 +12,6 @@ stored as JSON log files and JSON metadata files. The format of the data and
 its large volume makes direct analysis difficult. In this regard, it was 
 decided to involve a data engineer to create a PostgreSQL specific schema 
 designed database with the purpose to optimize queries.
-
----
 
 #### SCHEMA DESIGN
  
@@ -27,9 +24,8 @@ one Fact Table and four Dimension Tables.
 ![\"sparkify\" database ERD](project1_erd.png)
 _sparkify DataBase ERD_  
 
-
 Using the song and log datasets a star schema optimized for queries on song 
-play analysis. 
+play analysis.
 
 #### DATABASE and TABLES CREATION
     
