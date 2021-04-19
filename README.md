@@ -18,16 +18,14 @@ designed database with the purpose to optimize queries.
 
 #### SCHEMA DESIGN
  
-As a data engeneer I am agree with the star schema design that includes
+As a data engineer I am agree with the _star schema design_ that includes
 one Fact Table and four Dimension Tables.
-    1. The Fact Table is songplays table.
-It has the records in log data associated with song plays. i.e. records with 
-page NextSong
-    2. Dimension Tables are users, songs, artists, time tables that contain 
-users in the app, songs in music database, artists in music database, timestamps 
-of records in songplays broken down into specific units respectively.
 
-![Entity Relationship Diagram](project1_erd.png)
+1. The Fact Table is songplays table.
+2. Dimension Tables are users, songs, artists, time tables.
+
+![\"sparkify\" database ERD](project1_erd.png)
+_sparkify DataBase ERD_  
 
 
 Using the song and log datasets a star schema optimized for queries on song 
