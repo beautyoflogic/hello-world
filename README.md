@@ -22,7 +22,7 @@ one Fact Table and four Dimension Tables.
 2. Dimension Tables are users, songs, artists, time tables.
 
 ![\"sparkify\" database ERD](project1_erd.png)
-_sparkify DataBase ERD_  
+ 
 
 Using the song and log datasets a star schema optimized for queries on song 
 play analysis.
