@@ -13,6 +13,8 @@ its large volume makes direct analysis difficult. In this regard, it was
 decided to involve a data engineer to create a PostgreSQL specific schema 
 designed database with the purpose to optimize queries.
 
+---
+
 #### SCHEMA DESIGN
  
 As a data engineer I am agree with the _star schema design_ that includes
@@ -27,6 +29,8 @@ one Fact Table and four Dimension Tables.
 Using the song and log datasets a star schema optimized for queries on song 
 play analysis.
 
+---
+
 #### DATABASE and TABLES CREATION
     
 The create_tables.py and DROP and CREATE queries of the 
@@ -35,6 +39,8 @@ users, songs, artists, time tables. The running of create_tables.py have to be d
 
 The running test.ipynb is recommended after running create_tables.py 
 to confirm the creation of the tables with the correct columns.
+
+---
 
 #### ETL PROCESS
 
@@ -53,6 +59,8 @@ corresponding tables.
 To complete etl.py development the INSERT queries and SELECT finding songs query
 of the sql_queries.py are filled.
 
+---
+
 #### DATABASE QUERIES examples
 
 Here are some examples of the queries that can be used by starup analytical team to
@@ -64,3 +72,5 @@ For example,
  - SELECT count(song_id) FROM songs
  - SELECT count(user_id) FROM users
  - SELECT count(level) FROM users
+
+---
