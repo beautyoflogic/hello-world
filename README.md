@@ -39,6 +39,7 @@ log_data and song_data. Both of them is a JSON files directories
 - Song data
 This data contains metadata about a song and the artist of that song. 
 The files are partitioned by the first three letters of each song's track ID.
+
 ![project1_example of the song_data structure](project1_example_of_the_song_data_directory_structure.png)
 
 - Log data
