@@ -74,9 +74,7 @@ Here is the example of the one log file content (data/log_data/2018/11/2018-11-0
 {"artist":"M.I.A.","auth":"Logged In","firstName":"Ryan","gender":"M","itemInSession":2,"lastName":"Smith","length":233.7171,"level":"free","location":"San Jose-Sunnyvale-Santa Clara, CA","method":"PUT","page":"NextSong","registration":1541016707796.0,"sessionId":169,"song":"Mango Pickle Down River (With The Wilcannia Mob)","status":200,"ts":1541109325796,"userAgent":"\"Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/36.0.1985.125 Chrome\/36.0.1985.125 Safari\/537.36\"","userId":"26"}
 {"artist":"Survivor","auth":"Logged In","firstName":"Jayden","gender":"M","itemInSession":0,"lastName":"Fox","length":245.36771,"level":"free","location":"New Orleans-Metairie, LA","method":"PUT","page":"NextSong","registration":1541033612796.0,"sessionId":100,"song":"Eye Of The Tiger","status":200,"ts":1541110994796,"userAgent":"\"Mozilla\/5.0 (Windows NT 6.3; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"","userId":"101"}```
 
-write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL
-
-
+---
 
 #### DATABASE and TABLES CREATION
     
