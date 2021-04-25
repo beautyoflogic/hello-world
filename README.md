@@ -118,11 +118,11 @@ analytics.
 For example,
  - SELECT count(song_id) FROM songs
  
- ![example of the log_data structure](images/project1a_query1.png)
+ ![example of the log_data structure](project1a_query1.png)
  
  - SELECT count(user_id) FROM users
  
- ![example of the log_data structure](images/project1a_query2.png)
+ ![example of the log_data structure](project1a_query2.png)
  
  - SELECT count(level) FROM users
  
