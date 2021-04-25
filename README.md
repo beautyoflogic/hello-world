@@ -110,8 +110,8 @@ of the sql_queries.py are filled.
 
 #### DATABASE QUERIES examples
 
-Here are some examples of the queries that can be used by starup analytical team to
-analyze the complete dataset. They are simple and clear. They can used because
+Here are some examples of the queries that can be used by startup analytical team to
+analyze the complete dataset. They are simple and clear. They can be vey util because
 created database and ETL pipline have been developed with the goal to optimize 
 analytics.
 
