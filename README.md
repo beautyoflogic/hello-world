@@ -43,6 +43,12 @@ For example, here are song data structure
 
 ![project1_example of the song_data structure](project1_example_of_the_song_data_directory_structure.png)
 
+Here is the example of the one song file content (data/song_data/A/A/A/TRAAAAW128F429D538.json):
+
+```json
+{"num_songs": 1, "artist_id": "ARD7TVE1187B99BFB1", "artist_latitude": null, "artist_longitude": null, "artist_location": "California - LA", "artist_name": "Casual", "song_id": "SOMZWCG12A8C13C480", "title": "I Didn't Mean To", "duration": 218.93179, "year": 0}
+```
+
 - Log data
  
 Both of them is a JSON files directories with metadata about a 
