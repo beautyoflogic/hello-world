@@ -23,7 +23,7 @@ one Fact Table and four Dimension Tables.
 1. The Fact Table is songplays table.
 2. Dimension Tables are users, songs, artists, time tables.
 
-![\"sparkify\" database ERD](project1_erd.png)
+![\"sparkify\" database ERD](images/project1a_erd.png)
  
 
 Using the song and log datasets a star schema optimized for queries on song 
@@ -41,7 +41,7 @@ The song data set contains metadata about a song and the artist of that song.
 The files are partitioned by the first three letters of each song's track ID.
 For example, here is the song data structure:
 
-![project1_example of the song_data structure](project1_example_of_the_song_data_directory_structure.png)
+![example of the song_data directory structure](images/project1a_example_of_the_song_data_directory_structure.png)
 
 Here is the example of the one song file content (data/song_data/A/A/A/TRAAAAW128F429D538.json):
 
@@ -53,7 +53,7 @@ Here is the example of the one song file content (data/song_data/A/A/A/TRAAAAW12
 The log files dataset is partitioned by year and month.
 For example, here is the structure of the log data set:
 
-![project1_example of the log_data structure](project1_example_of_the_log_data_directory_structure.png)
+![example of the log_data structure](images/project1a_example_of_the_log_data_directory_structure.png)
 
 Here is the example of the one log file content (data/log_data/2018/11/2018-11-01-events.json):
 
@@ -86,6 +86,7 @@ users, songs, artists, time tables. The running of create_tables.py have to be d
 The running test.ipynb is recommended after running create_tables.py 
 to confirm the creation of the tables with the correct columns.
 
+
 ---
 
 #### ETL PROCESS
@@ -116,7 +117,17 @@ analytics.
 
 For example,
  - SELECT count(song_id) FROM songs
+ 
+ ![example of the log_data structure](images/project1a_query1.png)
+ 
  - SELECT count(user_id) FROM users
+ 
+ ![example of the log_data structure](images/project1a_query2.png)
+ 
  - SELECT count(level) FROM users
+ 
+ ![example of the log_data structure](project1a_query3.png)
+ 
+ 
 
 ---
