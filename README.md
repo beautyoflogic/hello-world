@@ -31,6 +31,30 @@ play analysis.
 
 ---
 
+#### DATA SET
+
+The complete Data Set to be processed is the 'data' folder that contains two subfolders:
+log_data and song_data. Both of them is a JSON files directories
+
+- Song data
+This data contains metadata about a song and the artist of that song. 
+The files are partitioned by the first three letters of each song's track ID.
+![project1_example of the song_data structure](project1_example_of_the_song_data_directory_structure.png)
+
+- Log data
+ 
+Both of them is a JSON files directories with metadata about a 
+song and the artist of that song. 
+The files are partitioned by the first three letters of each song's track ID. 
+For example, here are filepaths to two files in this dataset.
+
+Song Dataset
+The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+
+write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL
+
+
+
 #### DATABASE and TABLES CREATION
     
 The create_tables.py and DROP and CREATE queries of the 
